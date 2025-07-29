@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+
+# Exclude generated credentials (if they appear)
+*.tfvars.json
+
+# Local secrets (if you use them, adapt name)
+*.auto.tfvars
+
+# Sensitive files - DO NOT COMMIT PRIVATE KEYS!
+# If your key is named 'terraform-key', uncomment the line below.
+# terraform-key

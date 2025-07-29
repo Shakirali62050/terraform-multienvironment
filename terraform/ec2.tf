@@ -43,7 +43,3 @@ resource "aws_instance" "my_instance" {
     Name = "my-terraform-instance"
   }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> eb49c0d (Added terraform multi-env project)
